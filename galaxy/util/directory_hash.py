@@ -11,7 +11,7 @@ def directory_hash_id( id ):
     >>> directory_hash_id("777777777")
     ['000', '777', '777']
     >>> directory_hash_id("135ee48a-4f51-470c-ae2f-ce8bd78799e6")
-    ['13']
+    ['1','3','5']
     """
     s = str( id )
     l = len( s )
